@@ -3,7 +3,7 @@ init();
 
 document.querySelector('.btn-roll').addEventListener('click', function()
                                                     {
-    // 1. Random number b/w 1 to 6
+    // 1. Random number between 1 to 6
     var dice = Math.floor(Math.random()*6)+1;
     
     // 2. Display the result
